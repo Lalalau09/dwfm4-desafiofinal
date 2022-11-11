@@ -1,0 +1,84 @@
+/* form contact */
+*{
+    box-sizing: border-box;
+ }
+
+ .form {
+    background: black;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ @media(min-width:960px){
+    .form{background: linear-gradient(107.17deg, #408195 29.35%, rgba(0, 210, 135, 0.8) 78.73%);
+
+    }
+ }
+ @media(min-width:960px){
+    .form__container{
+        display: flex;
+        
+    }
+ }
+
+ .form-container-title{
+ margin-bottom: 30px;
+    font-size: 32px;
+    color: #FAFAFA;
+    font-family:"Monserrat",sans-serif;
+    text-align:center}
+    
+ 
+ @media (min-width:960px){
+    .form-container-title{
+        margin-top:3px;
+        margin-right:77px;
+        
+    }}
+
+ .form__container-form-name{
+    font-size:14px;
+    color:#FAFAFA;
+    font-weight:400;
+    font-family:"Montserrat", sans-serif
+ }
+
+ .form__container-form-input{
+    font-family:"Montserrat", sans-serif;
+    font-size: 14px;
+    width:300px;
+    height:36px
+ }
+
+textarea{
+    resize:none;
+    width: 300px;
+    height:100px;
+    font-size: 14px;
+}
+
+.button{
+    display:flex;
+    flex-direction: column;
+    margin-top:60px
+}
+
+.button__send{
+    height: 44px;
+    font-size: 16px;
+    color:  #DBDBDB;
+    font-weight: 700;
+    background-color: #2C2C2C;
+    border-radius: 4px;
+    border: #2C2C2C;
+    cursor:pointer
+}
+
+.button__send:hover{
+    background-color: #FAFAFA;
+    color:#2C2C2C;
+    transition: 0.5s;
+
+}

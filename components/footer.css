@@ -1,0 +1,57 @@
+/* FOOTER */
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+@media(min-width:960px){
+    .footer{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 0 80px
+    }
+}
+.logo{
+
+   height: 120px;
+}
+
+.footer a, 
+.footer-logo{
+    font-family: "Poppins" sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+.inst-img,
+.link-img,
+.git-img{
+    background-color: white;
+    border-radius: 7px 7px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30px;
+    height:30px
+}
+.footer-link,
+.footer-inst,
+.footer-git{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
