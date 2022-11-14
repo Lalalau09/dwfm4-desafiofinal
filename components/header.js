@@ -3,7 +3,7 @@ function addHeader(el){
     headerEl.innerHTML= ` <header class="header">
     <div class="header__container">
         <a href="./index.html">
-            <img src="/img/logo.png" class="header__logo">
+            <img src="./img/logo.png" class="header__logo">
         </a>
         <div class="bars__menu">
             <span class="line1__bars-menu"></span>
