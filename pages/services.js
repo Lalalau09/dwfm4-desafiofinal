@@ -4,7 +4,7 @@ function myServices() {
        .then((data) => myServicesRes(data));
     
     function myServicesRes(data) {
-       // console.log(data)
+       console.log(data)
  
        const templateServicesEl = document.querySelector("#services-template");
        const containerEl = document.querySelector(".services__container-general");

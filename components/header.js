@@ -13,7 +13,7 @@ function addHeader(el){
         <div class="nav-menu">
             <nav class="header__container-navs">
                 <a href="./portfolio.html">Portfolio</a>
-                <a href="/servicios.html">Servicios</a>
+                <a href="./servicios.html">Servicios</a>
                 <a href="./contacto.html">Contacto</a>
             </nav>
         </div>
@@ -32,7 +32,7 @@ function addHeader(el){
 
 const burgerEl = headerEl.querySelector(".bars__menu")
 
-const ventanaNav = headerEl.querySelector("header__container-content")
+const ventanaNav = headerEl.querySelector(".header__container-content")
 
 let line1__bars = headerEl.querySelector(".line1__bars-menu");
 let line2__bars = headerEl.querySelector(".line2__bars-menu");
