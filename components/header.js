@@ -21,10 +21,13 @@ function addHeader(el){
 
     <div class="header__container-content active" id="menusito">
         <nav class="header__container-content-nav">
-            <ul>
-                <li class="header__li"> <a href="./portfolio.html" class="link"></a></li>
-                <li class="header__li"> <a href="./servicios.html" class="link"></a></li>
-                <li class="header__li"> <a href="./contacto.html" class="link"></a></li>
+            <ul> 
+                <li class="header__li">
+                 <a href="./portfolio.html" class="link">Portfolio</a></li>
+                <li class="header__li">
+                <a href="./servicios.html" class="link"> Servicios</a></li>
+                <li class="header__li"> 
+                 <a href="./contacto.html" class="link">Contacto</a></li>
             </ul>
         </nav>
     </div>
